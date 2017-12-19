@@ -1,0 +1,24 @@
+/* pages/detail/detail.wxss */
+.detail-article{
+  font-size: 14px;
+  text-indent: 28px;
+  line-height: 2;
+  padding: 15px;
+}
+image{
+  width:100%;
+}
+.detail{
+  position: relative;
+  
+}
+.detail-title{
+  width: 100%;
+  position: absolute;
+  top:180px;
+
+  text-align:center;
+  color:#FFFFFE;
+  font-weight: bold;
+  font-size: 18px;
+}

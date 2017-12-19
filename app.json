@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/list/list",
+    "pages/detail/detail"  
+  ],
+  "window": {
+    "navigationBarTitleText": "包子日报",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": "true",
+    "navigationBarBackgroundColor":"#32B2E5"
+  },
+  "tabBar": {
+    "color": "#FFFFFE",
+    "selectedColor": "#FCF119",
+    "borderStyle": "white",
+    "backgroundColor": "#32B2E5",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/icon_API.png",
+        "selectedIconPath": "images/icon_API_HL.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/list/list",
+        "iconPath": "images/icon_component.png",
+        "selectedIconPath": "images/icon_component_HL.png",
+        "text": "包子分享"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  }
+}

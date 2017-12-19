@@ -1,0 +1,24 @@
+/* pages/list/list.wxss */
+.list-content{
+  width:100%;
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
+  color:#03719B;
+}
+.share-container{
+  padding: 15px;
+}
+.share-title{
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  color:#A70D4D;
+}
+.share-img{
+  width:160px;
+  height: 160px;
+  text-align: center;
+  display: block;
+  margin:0  auto;
+}

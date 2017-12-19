@@ -1,0 +1,33 @@
+
+<swiper  indicator-dots="{{indicatorDots}}"  
+        autoplay interval="{{interval}}" duration="{{duration}}">  
+      <block wx:for="{{imgUrl}}" wx:key="*this">  
+        <swiper-item>  
+            <image class="h" src="{{item.src}}" />    
+        </swiper-item>  
+      </block>  
+</swiper>
+
+<view class="section">
+   <view class="section__title">今日看点</view> 
+    <view class="flex-wrp" style="flex-direction:row;display:inline-flex;">
+      <view class="flex-item bc_green">吃货研究所</view>
+      <view class="flex-item bc_red">自然控</view>
+      <view class="flex-item bc_blue">天了噜</view>
+    </view>
+ </view>
+
+  <navigator url="/pages/detail/detail?id={{item.id}}&" hover-class="navigator-hover" wx:for="{{imgUrl}}" wx:key="*this"   >
+     <view class="flex-wrp" style="flex-direction:row;display:inline-flex;">
+        <view id="green" class="flex-item-left bc_green1">
+            {{item.text}}        
+          </view>
+        <view id="red"  class="flex-item-right bc_red">    
+          <swiper-item>
+              <image class="news" src="{{item.src}}"  mode="scaleToFill"/>   
+          </swiper-item>        
+        </view>
+  </view>
+ </navigator> 
+ 
+

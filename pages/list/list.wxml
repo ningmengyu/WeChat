@@ -1,0 +1,45 @@
+<!--pages/list/list.wxml-->
+<view class="container">
+  <view class="share-container">
+      <view class="share-title">
+        跟着所长有肉吃！吃货研究所：最有意思的美食订阅号
+      </view>
+      <view>
+          <image class='share-img' src='../../images/share.jpg'></image>
+      </view>
+      <view class='list-content'>我们不光分享食材，还分享跟食材有关的有趣故事</view>
+      <view class='list-content'>我们不光分享菜谱，还分享菜谱背后的科学原理</view>
+      <view class='list-content'>我们不光分享好吃的餐馆，还让你知道什么样才是好吃的</view>
+      <view class='list-content'>你知道黄咖喱、绿咖喱、红咖喱的区别吗？关注吃货研究所，回复“咖喱”让你成为咖喱行家</view>
+      <view class='list-content'>只会吃怎么够，所长带你吃得更好、吃的更美、吃的更健康！</view>
+      
+  </view>
+  <view class="share-container">
+      <view class="share-title">
+        十五言社区，高质量的阅读/写作平台
+      </view>
+       <view>
+          <image class='share-img' src='../../images/share1.jpg'></image>
+      </view>
+      <view class='list-content'>果壳旗下高质量写作/内容社区。</view>
+      <view class='list-content'>有一群关注点崎岖的作者，没事儿陪你唠唠美食的渊源。</view>
+      <view class='list-content'>历史政治的趣味边角，晚上陪你考据鬼神邪典。</view>
+      <view class='list-content'>美少女和小电影……总之就是「知识的文艺范儿」。</view>
+      <view class='list-content'>好看又涨知识。</view>
+     
+  </view>
+  <view class="share-container">
+      <view class="share-title">
+        健康朝九晚五
+      </view>
+       <view>
+          <image class='share-img' src='../../images/share2.jpg'></image>
+      </view>
+      <view class='list-content'>翘二郎腿有害健康吗？</view>
+      <view class='list-content'>人真的需要“清宿便”？</view>
+      <view class='list-content'>鸡翅鸡脖鸡屁股，到底哪个不能吃？</view>
+      <view class='list-content'>一个不传谣、不卖假药的健康养生资讯号：</view>
+      <view class='list-content'>果壳网旗下“健康朝九晚五”，我们只说靠谱的事！</view>
+     
+  </view>
+</view>
